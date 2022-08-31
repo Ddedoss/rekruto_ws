@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: seagreen;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  min-width: 100%;
+}
+header {
+  background-color: darkorange;
+  height: 100px;
+  position: relative;
+}
+main {
+  color: red;
+  margin: auto;
+}
+footer {
+  background-color: aqua;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+.main-text {
+  height: 50%;
+  text-align: center;
+  font-size: 100px;
+}
