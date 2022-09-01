@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+body {
+  margin: 0;
+  background-image: url(gr72_1920_1080.png);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  min-width: 100%;
+}
+main {
+  padding: auto;
+  color: orange;
+  margin: auto;
+  position: relative;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+a {
+  color: purple;
+}
+.main-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 170px;
+}
+
+.hov:hover {
+  color: orange;
+}
