@@ -1,6 +1,6 @@
 import os
 import sys
-from flask import Flask, redirect, url_for, request
+from flask import Flask, redirect, url_for, request, render_template
 
 
 sys.path.append('/home/c/ci79723/venv/lib/python3.6/site-packages/')
@@ -17,7 +17,7 @@ def get_message():
     message = args.get('message')
     if not (name and message) or len(args) > 2 or '/' in message:
         return redirect(url_for('wrongURL'))
-    return f"Hello {name}! {message}!"
+    return render_template('index.html', name=name, message=message)
 
 
 @app.route('/wrongURL')
